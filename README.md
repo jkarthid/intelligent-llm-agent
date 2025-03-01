@@ -64,7 +64,7 @@ The system implements a caching mechanism to store processed requests and their 
    deploy_from_venv.bat
    ```
 
-See the [deployment checklist](docs/deployment_checklist.md) for detailed deployment instructions.
+See the [deployment checklist](https://github.com/jkarthid/intelligent-llm-agent/wiki/deployment_checklist) for detailed deployment instructions.
 
 ## API Usage
 
@@ -100,7 +100,7 @@ Example Response:
 }
 ```
 
-See the [API documentation](docs/api.md) for more details.
+See the [API documentation](https://github.com/jkarthid/intelligent-llm-agent/wiki/api) for more details.
 
 ## Development
 
@@ -137,7 +137,7 @@ intelligent-llm-agent/
 - **clean_project.bat**: Cleans up the project
 - **create_release.bat**: Creates a new release
 
-See the [scripts guide](docs/scripts_guide.md) for more details.
+See the [scripts guide](https://github.com/jkarthid/intelligent-llm-agent/wiki/scripts_guide) for more details.
 
 ### Configuration
 
@@ -150,17 +150,15 @@ The system can be configured using environment variables:
 - **AWS_REGION**: Specifies the AWS region for resource deployment
 - **DYNAMODB_TABLE**: Specifies the DynamoDB table for caching
 
-See the [configuration guide](docs/configuration.md) for more details.
-
 ## Documentation
 
-- [Project Overview](docs/project_overview.md)
-- [Architecture Documentation](docs/architecture.md)
-- [API Documentation](docs/api.md)
-- [Deployment Checklist](docs/deployment_checklist.md)
-- [Troubleshooting Guide](docs/troubleshooting.md)
-- [Performance Optimization](docs/performance_optimization.md)
-- [Project Status](docs/project_status.md)
+- [Project Overview](https://github.com/jkarthid/intelligent-llm-agent/wiki/project_summary)
+- [Architecture Documentation](https://github.com/jkarthid/intelligent-llm-agent/wiki/architecture)
+- [API Documentation](https://github.com/jkarthid/intelligent-llm-agent/wiki/api)
+- [Deployment Checklist](https://github.com/jkarthid/intelligent-llm-agent/wiki/deployment_checklist)
+- [Troubleshooting Guide](https://github.com/jkarthid/intelligent-llm-agent/wiki/troubleshooting)
+- [Performance Optimization](https://github.com/jkarthid/intelligent-llm-agent/wiki/performance_optimization)
+- [Project Status](https://github.com/jkarthid/intelligent-llm-agent/wiki/project_status)
 - [Contributing Guidelines](CONTRIBUTING.md)
 
 ## License
