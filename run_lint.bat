@@ -1,0 +1,13 @@
+@echo off
+echo Running linting checks for Intelligent LLM Agent...
+echo.
+echo Running flake8...
+python -m flake8 src/ tests/
+echo.
+echo Running black...
+python -m black --check src/ tests/
+echo.
+echo Running isort...
+python -m isort --check-only src/ tests/
+echo.
+echo Linting checks complete!
