@@ -10,7 +10,7 @@ on:
 env:
   AWS_REGION: us-east-1
   TERRAFORM_VERSION: 1.11.0
-  PYTHON_VERSION: 3.10
+  PYTHON_VERSION: 3.9
 
 jobs:
   test:
